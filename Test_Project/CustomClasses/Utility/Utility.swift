@@ -17,17 +17,5 @@ class Utility: NSObject {
     }
  
     
-    class func formatString(unformattedString:String) -> String{
-       let stringArray = unformattedString.replacingOccurrences(of: "By", with: "").components(separatedBy: " ")
-       var returnString = ""
-        if stringArray.count > 2 {
-            returnString = "\(stringArray[1]) \(stringArray[2])"
-        }
-        else if stringArray.count == 2 {
-            returnString = "\(stringArray[0])"
-            
-        }
-        
-        return returnString
-    }
+  
 }

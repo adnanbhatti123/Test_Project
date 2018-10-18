@@ -20,6 +20,21 @@ extension UIImageView {
     }
 }
 
+extension String{
+    
+    mutating func formatString(unformattedString:String) {
+        let stringArray = unformattedString.replacingOccurrences(of: "By", with: "").components(separatedBy: " ")
+        if stringArray.count > 2 {
+            self  = "\(stringArray[1]) \(stringArray[2])"
+        }
+        else if stringArray.count == 2 {
+            self  = "\(stringArray[0])"
+            
+        }
+        
+ 
+    }
+}
 
 extension MasterViewController {
     

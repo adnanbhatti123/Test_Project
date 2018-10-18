@@ -22,7 +22,7 @@ class NyTimesTableViewCell: UITableViewCell {
     self.title.text = nyTimeObj.title
     self.detail.text = nyTimeObj.detail
     
-    self.publishedBy.text = Utility.formatString(unformattedString: nyTimeObj.writer!)
+    self.publishedBy.text?.formatString(unformattedString: nyTimeObj.writer!)
     self.publishedDate.setTitle(" \(String(describing: nyTimeObj.publishedDate!))", for: .normal)
     let placeholderImage = UIImage.init(named: "placeholder")
     self.newsImageView.sd_setImage(with: URL(string: nyTimeObj.imageUrl! as String), placeholderImage: placeholderImage)
