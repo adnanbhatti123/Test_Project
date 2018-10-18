@@ -7,33 +7,27 @@
 //
 
 import UIKit
+import WebKit
+import Foundation
+import MBProgressHUD
+import QuartzCore
 
-class DetailViewController: UIViewController {
-
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
-
-
-    func configureView() {
-        // Update the user interface for the detail item.
-        if let detail = detailItem {
-            if let label = detailDescriptionLabel {
-                label.text = detail.description
-            }
-        }
-    }
+class DetailViewController: UIViewController, WKNavigationDelegate  {
+ 
+    var nyTime:NYTime!
+    @IBOutlet weak var webView:WKWebView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        configureView()
+        configureWebView()
     }
-
-    var detailItem: NSDate? {
-        didSet {
-            // Update the view.
-            configureView()
-        }
-    }
+ 
+    
+ 
+    
+ 
 
 
 }

@@ -9,78 +9,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Test_Project/ViewControllerClasses/MasterViewController.swift"
-            timestampString = "561489004.1055"
+            filePath = "Test_Project/ViewControllerClasses/DetailViewController.swift"
+            timestampString = "561546543.396279"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
-            landmarkName = "getNYTimeObject(sectionValue:periodValue:)"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Test_Project/ViewControllerClasses/MasterViewController.swift"
-            timestampString = "561489004.106076"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "getNYTimeObject(sectionValue:periodValue:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Test_Project/ViewControllerClasses/MasterViewController.swift"
-            timestampString = "561489004.1068521"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
-            landmarkName = "getNYTimeObject(sectionValue:periodValue:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Optional&lt;__C.NSError&gt;) -&gt; () in Test_Project.MasterViewController.getNYTimeObject(sectionValue: Swift.String, periodValue: Swift.String) -&gt; ()"
-                  moduleName = "Test_Project"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nasirmehmood/Library/Autosave%20Information/Test_Project/Test_Project/ViewControllerClasses/MasterViewController.swift"
-                  timestampString = "561489004.262551"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "94"
-                  endingLineNumber = "94"
-                  offsetFromSymbolStart = "41">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #2 (Swift.Optional&lt;__C.NSError&gt;) -&gt; () in Test_Project.MasterViewController.getNYTimeObject(sectionValue: Swift.String, periodValue: Swift.String) -&gt; ()"
-                  moduleName = "Test_Project"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nasirmehmood/Library/Autosave%20Information/Test_Project/Test_Project/ViewControllerClasses/MasterViewController.swift"
-                  timestampString = "561489004.264707"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "95"
-                  endingLineNumber = "95"
-                  offsetFromSymbolStart = "23">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
